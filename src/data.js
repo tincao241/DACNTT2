@@ -4,15 +4,20 @@ export const links = [
   {
     id: 1,
     url: '/',
-    text: 'Số liệu Covid',
+    text: 'Việt Nam',
   },
   {
     id: 2,
+    url: '/world',
+    text: 'Thế giới',
+  },
+  {
+    id: 3,
     url: '/vaccine',
     text: 'Vaccine',
   },
   {
-    id: 3,
+    id: 4,
     url: '/variant',
     text: 'Biến chủng ',
   },

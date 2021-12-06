@@ -35,13 +35,7 @@ const Variant = () => {
         </div>
         <div class="row ">
           <div class="col-sm chart">
-            <iframe
-              width="1200"
-              height="800"
-              frameborder="0"
-              scrolling="yes"
-              src="//plotly.com/~tincao241/6.embed"
-            ></iframe>
+          <iframe width="1200" height="800" frameborder="0" scrolling="yes" src="//plotly.com/~tincao241/17.embed"></iframe>
           </div>
         </div>
         <div className="row">
@@ -63,47 +57,36 @@ const Variant = () => {
         </div>
 
         <div class="row chart">
-          <div class="column">
+          <div class="col-6 column ">
             <p className="small-info-2"> Ca nhiễm theo ngày</p>
-            <iframe
-              width="550"
-              height="400"
-              frameborder="0"
-              scrolling="no"
-              src="//plotly.com/~tincao241/12.embed"
-            ></iframe>
+            <div className="small-chart">
+              <div className="four-table-left">
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+              </div>
+            </div>
           </div>
-          <div class="column">
+          <div class="col-6 column ">
             <p className="small-info-2"> Khỏi</p>
-            <iframe
-              width="550"
-              height="400"
-              frameborder="0"
-              scrolling="no"
-              src="//plotly.com/~tincao241/12.embed"
-            ></iframe>
+            <div className="small-chart">
+              <div className="four-table-right">
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row chart">
-          <div class="column">
+        <div class="row chart ">
+          <div class=" col-6 column">
             <p className="small-info-2"> Các ca tử vong theo ngày</p>
-            <iframe
-              width="550"
-              height="400"
-              frameborder="0"
-              scrolling="no"
-              src="//plotly.com/~tincao241/12.embed"
-            ></iframe>
+            <div className="four-table-left">
+              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+            </div>
+            
           </div>
-          <div class="column">
+          <div class=" col-6 column">
             <p className="small-info-2"> Tử vong</p>
-            <iframe
-              width="550"
-              height="400"
-              frameborder="0"
-              scrolling="no"
-              src="//plotly.com/~tincao241/12.embed"
-            ></iframe>
+            <div className="four-table-right">
+              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+            </div>
           </div>
         </div>
       </div>
