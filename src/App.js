@@ -6,6 +6,7 @@ import Vaccine from "./Vaccine";
 import Variant from "./Variant";
 import World from "./World"
 import {ScrollToTop} from "./ScrollToTop.js"
+import { Footer } from "./Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/variant" component={Variant}/>
         </Switch>
         <ScrollToTop />
+        <Footer />
       </Router>
     
   );

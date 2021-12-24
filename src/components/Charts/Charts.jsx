@@ -17,6 +17,10 @@ const Charts = () => {
   return (
     <>
       <div class="container">
+        <div class="row ">
+          <div class="col-sm chart">
+          <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/28.embed"></iframe>          </div>
+        </div>
         <div className="row">
           <div className="col-sm chart-info">Số liệu Covid 19 tại Việt Nam</div>
           <p className="small-info"> Đợt bùng phát từ đầu năm 2020</p>
@@ -69,15 +73,15 @@ const Charts = () => {
             <p className="small-info-2"> Ca nhiễm theo ngày</p>
             <div className="small-chart">
               <div className="four-table-left">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/44.embed"></iframe>
               </div>
             </div>
           </div>
           <div class="col-6 column ">
-            <p className="small-info-2"> Khỏi</p>
+            <p className="small-info-2"> Số ca bình phục và đang điều trị </p>
             <div className="small-chart">
               <div className="four-table-right">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/38.embed"></iframe>
               </div>
             </div>
           </div>
@@ -86,14 +90,14 @@ const Charts = () => {
           <div class=" col-6 column">
             <p className="small-info-2"> Các ca tử vong theo ngày</p>
             <div className="four-table-left">
-              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
-            </div>
+              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/32.embed"></iframe>    
+          </div>
             
           </div>
           <div class=" col-6 column">
-            <p className="small-info-2"> Tử vong</p>
+            <p className="small-info-2"> Tỉ lệ phần trăm tử vong </p>
             <div className="four-table-right">
-              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+               <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/46.embed"></iframe>
             </div>
           </div>
         </div>

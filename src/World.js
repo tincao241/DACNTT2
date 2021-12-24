@@ -5,6 +5,7 @@ import axios from "axios";
 import CountUp from "react-countup";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
 
+
 const World = () => {
   const [data, setData] = useState("");
   useEffect(() => {
@@ -20,6 +21,7 @@ const World = () => {
   }, []);
   return (
     <>
+    
     <div className={styles.container}>
       <Grid container spacing={3} justify="center">
         <Grid
@@ -114,9 +116,26 @@ const World = () => {
         </Grid>
       </Grid>
     </div>
+    
     <div class="container">
         <div className="row">
-          <div className="col-sm chart-info">Số liệu Covid 19 tại Thế giới</div>
+          <div className="col-sm chart-info">
+            <iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?tab=map&zoomToSelection=true&facet=none&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Align+outbreaks=false&country=~OWID_WRL"  width="1200" height="800" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+          </div>
+        </div>
+        
+        <div className="row">
+          <div className="col-sm chart-info">Các số liệu Covid 19 Thế giới</div>
+          <p className="small-info"> Đợt bùng phát từ đầu năm 2020</p>
+          
+        </div>
+        <div class="row ">
+          <div class="col-sm chart">
+            <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/24.embed"></iframe>       
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm chart-info">Bảng số liệu Covid 19 Thế giới</div>
           <p className="small-info"> Đợt bùng phát từ đầu năm 2020</p>
           <div className="covid-info">
             <span>
@@ -133,9 +152,10 @@ const World = () => {
             </span>
           </div>
         </div>
-        <div class="row ">
+        
+        <div class="row">
           <div class="col-sm chart">
-          <iframe width="1000" height="800" frameborder="0" scrolling="yes" src="//plotly.com/~tincao241/16.embed"></iframe>
+          <iframe width="1200" height="800" frameborder="0" scrolling="yes" src="//plotly.com/~tincao241/16.embed"></iframe>
           </div>
         </div>
         <div className="row">
@@ -155,15 +175,15 @@ const World = () => {
             <p className="small-info-2"> Ca nhiễm theo ngày</p>
             <div className="small-chart">
               <div className="four-table-left">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/48.embed"></iframe>
               </div>
             </div>
           </div>
           <div class="col-6 column ">
-            <p className="small-info-2"> Khỏi</p>
+            <p className="small-info-2"> Số ca bình phục và đang điều trị </p>
             <div className="small-chart">
               <div className="four-table-right">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/50.embed"></iframe>
               </div>
             </div>
           </div>
@@ -172,14 +192,14 @@ const World = () => {
           <div class=" col-6 column">
             <p className="small-info-2"> Các ca tử vong theo ngày</p>
             <div className="four-table-left">
-              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
-            </div>
+              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/52.embed"></iframe>    
+          </div>
             
           </div>
           <div class=" col-6 column">
-            <p className="small-info-2"> Tử vong</p>
+            <p className="small-info-2"> Tỉ lệ phần trăm hồi phục </p>
             <div className="four-table-right">
-              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/13.embed"></iframe>
+               <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/54.embed"></iframe>
             </div>
           </div>
         </div>

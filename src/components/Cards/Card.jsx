@@ -74,7 +74,7 @@ const Cards = () => {
               />
             </Typography>
             <Typography variant="body2">
-              Number of recovered cases of COVID 19
+              Number of recovered cases of COVID
             </Typography>
           </CardContent>
           

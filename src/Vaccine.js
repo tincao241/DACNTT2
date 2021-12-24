@@ -17,25 +17,37 @@ const Variant = () => {
   return (
     <>
       <div class="container">
+        {/* <div className="row">
+          <div className="col-sm chart-info">
+            Bản đồ Vaccine Covid 19 Thế giới
+          </div>
+          <p className="small-info"> Từ đợt tiêm chủng đầu tiên</p>
+        </div> */}
+        <div className="row">
+          <div className="col-sm chart-info">
+            <iframe src="https://public.domo.com/cards/31O7r"  width="1200" height="800" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+          </div>
+        </div>
+        
+        <div className="row">
+          <div className="col-sm chart-info">
+            Biểu đồ số liệu tiêm Vaccine Covid 19 tại Việt Nam
+          </div>
+          <p className="small-info"> Đợt tiêm chủng từ tháng 3/2021</p>
+        </div>
+        <div class="row">
+          <div class="col-sm chart">
+            
+            <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/22.embed"></iframe>
+          </div>
+        </div>
+
         <div className="row">
           <div className="col-sm chart-info">
             Số liệu Vaccine Covid 19 tại Việt Nam
           </div>
-          <p className="small-info"> Đợt bùng phát từ đầu năm 2020</p>
-          <div className="covid-info">
-            <span>
-              Hôm nay, Việt Nam ghi nhận <b>{data.todayCases}</b> ca , nâng tổng
-              số ca nhiễm trong nước lên <b>{data.cases}</b> tại 63 tỉnh thành.{" "}
-              <br /> <br />
-              Cùng ngày, Bộ Y tế công bố{" "}
-              <b className="recovered-number">{data.todayRecovered}</b> người
-              khỏi bệnh, <b className="active-number">{data.active}</b> bệnh
-              nhân đang điều trị và{" "}
-              <b className="deaths-number"> {data.todayDeaths}</b> ca tử vong.{" "}
-              <br />
-              {/* Kể từ khi dịch bùng phát từ đầu 2020 đến nay, Việt Nam đã ghi nhận <b>{data.cases}</b> ca nhiễm, <b className="recovered-number">{data.recovered}</b> người khỏi bệnh, <b className="active-number">{data.active}</b> bệnh nhân đang điều trị và <b className="deaths-number">{data.deaths}</b> ca tử vong.  */}
-            </span>
-          </div>
+          <p className="small-info"> Đợt bùng phát từ tháng 3 năm 2021</p>
+          
         </div>
         <div class="row ">
           <div class="col-sm chart">
@@ -48,6 +60,7 @@ const Variant = () => {
             ></iframe>
           </div>
         </div>
+
         <div className="row">
           <div className="col-sm chart-info">
             Biểu đồ số liệu ca nhiễm Covid 19 tại Việt Nam
@@ -65,23 +78,7 @@ const Variant = () => {
             ></iframe>
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm chart-info">
-            Biểu đồ số liệu tiêm Vaccine Covid 19 tại Việt Nam
-          </div>
-          <p className="small-info"> Đợt tiêm chủng từ tháng 3/2021</p>
-        </div>
-        <div class="row">
-          <div class="col-sm chart">
-            <iframe
-              width="1200"
-              height="800"
-              frameborder="0"
-              scrolling="no"
-              src="//plotly.com/~tincao241/20.embed"
-            ></iframe>
-          </div>
-        </div>
+        
 
         <div class="row chart">
           <div class="col-6 column ">
