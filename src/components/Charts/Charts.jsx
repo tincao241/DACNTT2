@@ -17,9 +17,10 @@ const Charts = () => {
   return (
     <>
       <div class="container">
+        
         <div class="row ">
           <div class="col-sm chart">
-          <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/28.embed"></iframe>          </div>
+          <iframe width="1200" height="800" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/28.embed"></iframe></div>
         </div>
         <div className="row">
           <div className="col-sm chart-info">Số liệu Covid 19 tại Việt Nam</div>
