@@ -82,27 +82,27 @@ const Variant = () => {
 
         <div class="row chart">
           <div class="col-6 column ">
-            <p className="small-info-2"> Ca nhiễm theo ngày</p>
+            <p className="small-info-2"> Số vaccine đã tiêm tại Việt Nam </p>
             <div className="small-chart">
               <div className="four-table-left">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/44.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/101.embed"></iframe>
               </div>
             </div>
           </div>
           <div class="col-6 column ">
-            <p className="small-info-2"> Số ca bình phục và đang điều trị </p>
+            <p className="small-info-2"> Số người đã tiêm ít nhất 1 mũi tại Việt Nam </p>
             <div className="small-chart">
               <div className="four-table-right">
-                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/38.embed"></iframe>
+                <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/103.embed"></iframe>
               </div>
             </div>
           </div>
         </div>
         <div class="row chart ">
           <div class=" col-6 column">
-            <p className="small-info-2"> Các ca tử vong theo ngày</p>
+            <p className="small-info-2"> Số người đã tiêm 2 mũi tại Việt Nam</p>
             <div className="four-table-left">
-              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/32.embed"></iframe>    
+              <iframe width="550" height="400" frameborder="0" scrolling="no" src="//plotly.com/~tincao241/105.embed"></iframe>    
           </div>
             
           </div>

@@ -353,12 +353,13 @@ nav {
   background-color: rgb(168, 172, 179); /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 0.4rem 0.5rem; /* Some padding */
+  padding: 0.2rem 0.35rem; /* Some padding */
   border-radius: 1.6rem; /* Rounded corners */
   font-size: 28px; /* Increase font size */
+  text-align: center;
 }
 .button-show:hover{
-  background-color: rgb(103, 154, 231);
+  background-color: rgb(101, 153, 233);
 }
 
 .button-hidden{

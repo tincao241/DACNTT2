@@ -1,6 +1,6 @@
 import React,{ useEffect, useState } from "react";
 import {classNames} from "./classNames";
-import {BiArrowFromBottom} from 'react-icons/bi';
+import {FiChevronUp} from 'react-icons/fi';
 
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,7 +38,7 @@ export const ScrollToTop = () => {
           // "inline-flex items-center p-3 rounded-full shadow-sm text-white bg-pink-600 transition-opacity hover:bg-pink-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500"
         )}
       >
-        <BiArrowFromBottom className= 'h-6 w-6' aria-hidden="true" />
+        <FiChevronUp className= 'h-6 w-6' aria-hidden="true" />
       </button>
     </div>
     

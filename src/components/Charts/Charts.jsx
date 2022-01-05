@@ -47,7 +47,7 @@ const Charts = () => {
               height="800"
               frameborder="0"
               scrolling="yes"
-              src="//plotly.com/~tincao241/6.embed"
+              src="//plotly.com/~tincao241/106.embed"
             ></iframe>
           </div>
         </div>
