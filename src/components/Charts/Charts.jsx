@@ -28,7 +28,7 @@ const Charts = () => {
           <div className="covid-info">
             <span>
               Hôm nay, Việt Nam ghi nhận <b>{data.todayCases}</b> ca , nâng tổng
-              số ca nhiễm trong nước lên <b>{data.cases}</b> tại 63 tỉnh thành.{" "}
+              số ca nhiễm trong nước lên <b className="cases-number">{data.cases}</b> tại 63 tỉnh thành.{" "}
               <br /> <br />
               Cùng ngày, Bộ Y tế công bố{" "}
               <b className="recovered-number">{data.todayRecovered}</b> người

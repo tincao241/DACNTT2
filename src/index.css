@@ -328,18 +328,18 @@ nav {
 }
 
 .cases-number{
-  color: blue;
+  color: rgb(31, 31, 133);
 }
 .recovered-number{
-  color: rgb(6, 145, 6);
+  color: rgb(26, 116, 26);
 }
 .deaths-number{
-  color: rgb(236, 43, 43);
+  color: rgb(146, 31, 31);
 }
 .active-number{
-  color: rgb(233, 166, 42);
+  color: rgb(185, 135, 42);
 }
-
+.
 /* Scroll top */
 
 .button-show{

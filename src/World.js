@@ -140,7 +140,7 @@ const World = () => {
           <div className="covid-info">
             <span>
               Hôm nay, Thế giới ghi nhận <b>{data.todayCases}</b> ca , nâng tổng
-              số ca nhiễm lên <b>{data.cases}</b> tại 196 quốc gia.{" "}
+              số ca nhiễm lên <b className="cases-number">{data.cases}</b> tại 196 quốc gia.{" "}
               <br /> <br />
               Cùng ngày, WHO công bố{" "}
               <b className="recovered-number">{data.todayRecovered}</b> người
